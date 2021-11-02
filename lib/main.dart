@@ -50,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
+            const Text("Draw your signature"),
             Container(
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.deepPurple),
